@@ -143,6 +143,15 @@ hr{
     top:5px;
 }
 
+.portfolioIcon{
+    height:50px;
+    width:50px;
+    display:inline;
+    position:absolute;
+    right:185px;
+    top:5px;
+}
+
 .ExperienceRow{
     width:50%;
     margin:auto;
