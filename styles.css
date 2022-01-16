@@ -120,7 +120,8 @@ hr{
     width:50px;
     display:inline;
     position:absolute;
-    right:0;
+    right:5px;
+    top:5px;
 }
 
 .gitHub{
@@ -128,7 +129,8 @@ hr{
     width:50px;
     display:inline;
     position:absolute;
-    right:60px;
+    right:65px;
+    top:5px;
 }
 
 .mailMe{
@@ -136,7 +138,8 @@ hr{
     width:50px;
     display:inline;
     position:absolute;
-    right:120px;
+    right:125px;
+    top:5px;
 }
 
 .ExperienceRow{
