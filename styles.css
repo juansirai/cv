@@ -50,6 +50,7 @@ h2{
 
 h3{
     font-family: 'Ubuntu', sans-serif;
+    text-align:center;
 }
 
 .headName{
@@ -180,4 +181,101 @@ hr{
     height:200px;
     width:200px;
     margin-right:20px;
+}
+
+.back_arrow{
+    height:50px;
+    width:50px;
+    display:inline;
+    position:absolute;
+    right:5px;
+    top:5px;
+}
+
+.bottom-container{
+    margin:50px auto auto auto;
+}
+
+/*
+    PORTFOLIO CONFIG
+*/
+
+.projectsRow{
+    width:80%;
+    margin:auto;
+    text-align:left;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+
+
+.londonIMG{
+    display:inline;
+    float:left;
+    height:400px;
+    width:400px;
+    margin:30px auto auto auto;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.attritionIMG{
+    display:inline;
+    float:right;
+    height:400px;
+    width:400px;
+    margin:30px auto auto auto;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.titanicIMG{
+    display:inline;
+    float:left;
+    height:400px;
+    width:400px;
+    margin:30px auto auto auto;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.deliveryIMG{
+    display:inline;
+    float:right;
+    height:400px;
+    width:400px;
+    margin:30px auto auto auto;
+    padding-right:10px;
+    padding-left:10px;
+
+}
+
+.projectTitle{
+    padding-top:40px;
+}
+
+.projectDescription{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/*
+BUTTON STYLE
+*/
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #fafafa;
+  font-size: 20px;
+  background: #4c9bcf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e62b6a;
+  text-decoration: none;
 }
