@@ -1,0 +1,180 @@
+body{
+    background-color:#F6F5F5;
+    margin:1;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.header{
+    background-color:#D3E0EA;
+    height:100px;
+    position:sticky;
+    top:0;
+}
+
+.myName{
+    color:#f55c51;
+    display:block;
+    text-align:center;
+    font-family:'Ubuntu', sans-serif;
+    font-size:1.5rem;
+    margin:0 auto auto auto;
+}
+
+.fuji{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-row{
+    display:inline-block;
+    width:33%;
+}
+
+h1{
+    color:#276678;
+    font-family:'Kaushan Script', cursive;
+    font-size:300%;
+    margin:50px auto 0 auto;
+    text-align:center;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    font-size:2.5rem;
+    font-weight:normal;
+    color:#1687A7;
+    margin:50px auto 50px auto;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.headName{
+    text-align:left;
+    display:inline;
+    position:absolute;
+    margin:0 auto auto auto;
+    color:#F6F5F5;
+}
+
+
+.profile_photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    width:300px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.python_skills_logo{
+    display:inline;
+    height:200px;
+    width:200px;
+    margin:auto auto auto 50px;
+}
+
+.data_skills_logo{
+    display:inline;
+    height:200px;
+    width:200px;
+    margin:auto auto auto 90px;
+}
+
+.portfolio-img{
+    display:inline;
+    height:200px;
+    width:200px;
+    margin:auto auto auto 50px;
+}
+
+a{
+    text-decoration-color:#1687A7;
+    color:#1687A7;
+}
+
+hr{
+    border-style: dotted;
+    border-width:10px 0 0 0;
+    width:7%;
+    border-color:#FF7272;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.linkedin{
+    height:50px;
+    width:50px;
+    display:inline;
+    position:absolute;
+    right:0;
+}
+
+.gitHub{
+    height:50px;
+    width:50px;
+    display:inline;
+    position:absolute;
+    right:60px;
+}
+
+.mailMe{
+    height:50px;
+    width:50px;
+    display:inline;
+    position:absolute;
+    right:120px;
+}
+
+.ExperienceRow{
+    width:50%;
+    margin:auto;
+    text-align:left;
+    padding-bottom:50px;
+    padding-top:30px;
+}
+
+.ab-inbev-img{
+    display:inline;
+    float:left;
+    height:200px;
+    width:200px;
+    margin-right:20px;
+}
+
+.edelap1{
+    display:inline;
+    float:right;
+    height:200px;
+    width:200px;
+    margin-right:20px;
+}
+
+.edelap2{
+    display:inline;
+    float:left;
+    height:200px;
+    width:200px;
+    margin-right:20px;
+}
+
+.weizur{
+    display:inline;
+    float:right;
+    height:200px;
+    width:200px;
+    margin-right:20px;
+}
