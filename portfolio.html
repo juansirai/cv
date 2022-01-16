@@ -3,8 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>PortFolio</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Libre+Franklin&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Hey you! Portfolio under contruction ;) </h1>
+    <link rel="stylesheet" href="styles.css">
+    <div class="header">
+        <h1 class="headName">Sirai Juan</h1>
+        <a href="index.html"><img class="linkedin" src="back.png" alt="back_arrow"></a>
+    </div>
+    <h1> Some of my work </h1>
+    <div class="myProjects">
+        <div class="projectsRow">
+            <a href="https://github.com/juansirai/Energy-Consumption"><img class="londonIMG" src="london.jpg" alt="london"></a>
+            <h3 class="projectTitle">Energy Consumption - London Smart Meters</h3>
+            <p class="projectDescription">In the context of the final challenge of the Data Science course (Digital House Argentina), we developed a <span class="bold">descriptive and predictive analysis</span> of energy consumption in UK.
+                The data set was provided by kaggle.com and consists of daily consumption measurements on smart meters.
+                This dataset, consists in a refactorised version of the data from the London data store, that contains
+                the energy consumption readings for a sample of 5,567 London Households that took part in the UK Power
+                Networks led Low Carbon London project between November 2011 and February 2014.
+                The data from the smart meters seems associated only to the electrical consumption.</p>
+            <a href="https://github.com/juansirai/Energy-Consumption"><button class="btn" style="vertical-align:middle">Go there!</button></a>
+        </div>
+        <div class="projectsRow">
+            <a href="https://github.com/juansirai/HR-Attrition"><img class="attritionIMG" src="attrition.png" alt="attrition"></a>
+            <h3 class="projectTitle">HR Turnover Analysis</h3>
+            <p class="projectDescription">Organizations are maded of people. Inside the company, we can find individuals
+                with different backgrounds, experiences and with different objetives.
+                Sometimes, what the individual wants for him or her career, is aligned with the organization objetives.
+                In that case, the person is able to pursuit his/her personal objetive,
+                while following the organization one. In other times, the organizational objetive is not aligned with
+                the individual one, so he or she may enter an internal conflict.<br>
+                Organizations often put a lot of effort into desperate "talent retention" strategies but ...
+                maybe it's time to think and rethink, in strategies with a long-term goal:
+                "build the conditions so that people want to stay."
+                If you want, I invite you to follow me in this trip, triying to get the first insights about
+                "Why people left their jobs?", and think in ways to don't lose our main value.</p>
+            <a href="https://github.com/juansirai/HR-Attrition"><button class="btn" style="vertical-align:middle">Go there!</button></a>
+        </div>
+        <div class="projectsRow">
+            <a href="https://github.com/juansirai/Titanic"><img class="titanicIMG" src="titanic.jpeg" alt="titanic"></a>
+            <h3 class="projectTitle">Titanic - statistical approach to a catastrophe</h3>
+            <p class="projectDescription">The sinking of the Titanic is one of the most infamous shipwrecks in
+                history. On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS
+                Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for
+                everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
+                While there was some element of luck involved in surviving, it seems some groups of people were
+                more likely to survive than others.<br>
+                In this notebook, I developed a predictive model that answers the question: “what sorts of people
+                were more likely to survive?” using passenger data (ie name, age, gender, socio-economic
+                class, etc)..</p>
+            <a href="https://github.com/juansirai/Titanic"><button class="btn" style="vertical-align:middle">Go there!</button></a>
+        </div>
+        <div class="projectsRow">
+            <a href="https://github.com/juansirai/jump2digital"><img class="deliveryIMG" src="delivery.jpg" alt="delivery"></a>
+            <h3 class="projectTitle">Data Science Challenge - Jump2Digital</h3>
+            <p class="projectDescription">
+                Akadelivers is a home delivery company specialized in delivering packages in less than 1 hour.
+                This company has a mobile application with which its users can choose from a catalog of products
+                from local stores in your city and have them delivered in less than 10 minutes to the address
+                of your choice.<br>
+                In this <span class="bold">Data Science Challenge</span>, we need to answer the questions:<br>
+                - The 3 countries in which the most orders are made<br>
+                - The hours in which more orders are made in Spain<br>
+                - Average price per store order with ID 12513<br>
+                - Optimal shift distribution.<br>
+                - Predictive model for cancelled orders.<br>
+            </p>
+            <a href="https://github.com/juansirai/jump2digital"><button class="btn" style="vertical-align:middle">Go there!</button></a>
+        </div>
+    </div>
+<div class="bottom-container">
+  <p>© 2022 Juan Sirai.</p>
+</div>
 </body>
 </html>
